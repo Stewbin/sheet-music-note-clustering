@@ -1,7 +1,14 @@
 [project]
-name = "persistent-homology-of-sheet-music"
+name = "sheet-music-note-clustering"
 version = "0.1.0"
-description = "Add your description here"
+description = "Unsupervised, tonality-agnostic harmonic boundary detection in symbolic music via hierarchical clustering"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "marimo>=0.24.2",
+    "music21>=10.5.0",
+    "pandas>=3.0.6",
+    "scikit-learn>=1.9.1",
+    "scipy>=1.18.1",
+    "watchdog>=6.0.0",
+]

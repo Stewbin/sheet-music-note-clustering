@@ -1,0 +1,126 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.24.2",
+    "script_metadata_hash": null
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "c765e56139bccdd6109a433aac85e966",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "e436373920ec68c66a58d56ccea1f1fa",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "51db0d28fe6d178d98dabfe3fe085e63",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "301763d8c5ae97eb982551aa318941e4",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "4dbde9f4864ff20cf51d39b585e04b04",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "e508dad73bf08f373534082cc3d75d9a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "iovm",
+      "code_hash": "4aad166fccbca5d966031c2ab9562e47",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"top-composers-by-genre\">Top composers by genre</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "RDsB",
+      "code_hash": "693071464a99ec3a2548cbc8b455a74c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "OEUy",
+      "code_hash": "eb9613a002d786a08dbd5c8f4606e58d",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "application/json": "{\"classical\": \"text/html:<marimo-ui-element object-id='OEUy-0' random-id='14acd9b2-f708-2973-add9-19a2decf6b98'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;composer_name&#92;&quot;:&#92;&quot;William Marshall&#92;&quot;,&#92;&quot;count&#92;&quot;:1185},{&#92;&quot;composer_name&#92;&quot;:&#92;&quot;J. S. Bach&#92;&quot;,&#92;&quot;count&#92;&quot;:526},{&#92;&quot;composer_name&#92;&quot;:&#92;&quot;Alexander Walker&#92;&quot;,&#92;&quot;count&#92;&quot;:343},{&#92;&quot;composer_name&#92;&quot;:&#92;&quot;Urheber unbekanntDatum in der hier transkribierten schriftlichen Quelle: 1767&#92;&quot;,&#92;&quot;count&#92;&quot;:326},{&#92;&quot;composer_name&#92;&quot;:&#92;&quot;Teton Sioux band 1911-1914&#92;&quot;,&#92;&quot;count&#92;&quot;:309}]&quot;' data-total-rows='5' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;count&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;composer_name&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>\", \"jazz\": \"text/html:<marimo-ui-element object-id='OEUy-1' random-id='cca2bf98-7c01-51dc-7314-af62adac21ae'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;composer_name&#92;&quot;:&#92;&quot;Thelonius Monk&#92;&quot;,&#92;&quot;count&#92;&quot;:12},{&#92;&quot;composer_name&#92;&quot;:&#92;&quot;Duke Ellington&#92;&quot;,&#92;&quot;count&#92;&quot;:5},{&#92;&quot;composer_name&#92;&quot;:&#92;&quot;Composer&#92;&quot;,&#92;&quot;count&#92;&quot;:5},{&#92;&quot;composer_name&#92;&quot;:&#92;&quot;John Coltrane&#92;&quot;,&#92;&quot;count&#92;&quot;:5},{&#92;&quot;composer_name&#92;&quot;:&#92;&quot;Hoagy Carmichael&#92;&quot;,&#92;&quot;count&#92;&quot;:5}]&quot;' data-total-rows='5' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;count&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;composer_name&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>\", \"rock\": \"text/html:<marimo-ui-element object-id='OEUy-2' random-id='43f3c254-9421-0f47-a38b-28e35c05264e'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;composer_name&#92;&quot;:&#92;&quot;Sam Anderson&#92;&quot;,&#92;&quot;count&#92;&quot;:15},{&#92;&quot;composer_name&#92;&quot;:&#92;&quot;Composer&#92;&quot;,&#92;&quot;count&#92;&quot;:12},{&#92;&quot;composer_name&#92;&quot;:&#92;&quot;Coldplay&#92;&quot;,&#92;&quot;count&#92;&quot;:10},{&#92;&quot;composer_name&#92;&quot;:&#92;&quot;My Chemical Romance&#92;&quot;,&#92;&quot;count&#92;&quot;:10},{&#92;&quot;composer_name&#92;&quot;:&#92;&quot;Imagine Dragons&#92;&quot;,&#92;&quot;count&#92;&quot;:9}]&quot;' data-total-rows='5' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;count&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;composer_name&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>\", \"metal\": \"text/html:<marimo-ui-element object-id='OEUy-3' random-id='c906e090-e4c9-a22a-1d4f-321ab0fd81b9'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;composer_name&#92;&quot;:&#92;&quot;Mago de Oz&#92;&quot;,&#92;&quot;count&#92;&quot;:4},{&#92;&quot;composer_name&#92;&quot;:&#92;&quot;Composer&#92;&quot;,&#92;&quot;count&#92;&quot;:4},{&#92;&quot;composer_name&#92;&quot;:&#92;&quot;Rammstein&#92;&quot;,&#92;&quot;count&#92;&quot;:4},{&#92;&quot;composer_name&#92;&quot;:&#92;&quot;Iron Maiden&#92;&quot;,&#92;&quot;count&#92;&quot;:3},{&#92;&quot;composer_name&#92;&quot;:&#92;&quot;Metallica&#92;&quot;,&#92;&quot;count&#92;&quot;:3}]&quot;' data-total-rows='5' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;count&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;composer_name&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>\"}"
+          }
+        }
+      ],
+      "console": []
+    }
+  ]
+}
