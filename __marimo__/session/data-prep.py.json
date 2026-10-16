@@ -7,7 +7,7 @@
   "cells": [
     {
       "id": "Hbol",
-      "code_hash": "c765e56139bccdd6109a433aac85e966",
+      "code_hash": "4b935fdc24143d2f3b4995a8c9e90591",
       "outputs": [
         {
           "type": "data",
@@ -20,7 +20,7 @@
     },
     {
       "id": "MJUe",
-      "code_hash": "e436373920ec68c66a58d56ccea1f1fa",
+      "code_hash": "29727354076c6df3e693ecb6df2ee23a",
       "outputs": [
         {
           "type": "data",
@@ -34,57 +34,29 @@
     {
       "id": "vblA",
       "code_hash": "51db0d28fe6d178d98dabfe3fe085e63",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/plain": ""
-          }
-        }
-      ],
+      "outputs": [],
       "console": []
     },
     {
       "id": "bkHC",
-      "code_hash": "301763d8c5ae97eb982551aa318941e4",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/plain": ""
-          }
-        }
-      ],
+      "code_hash": "d7e4f81d6ddcb16b91702fcfcbbbdee8",
+      "outputs": [],
       "console": []
     },
     {
       "id": "lEQa",
-      "code_hash": "4dbde9f4864ff20cf51d39b585e04b04",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/plain": ""
-          }
-        }
-      ],
+      "code_hash": "36a91017c0ae424d7485bbaa3b0ae8dc",
+      "outputs": [],
       "console": []
     },
     {
       "id": "PKri",
       "code_hash": "e508dad73bf08f373534082cc3d75d9a",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/plain": ""
-          }
-        }
-      ],
+      "outputs": [],
       "console": []
     },
     {
-      "id": "iovm",
+      "id": "Xref",
       "code_hash": "4aad166fccbca5d966031c2ab9562e47",
       "outputs": [
         {
@@ -97,8 +69,78 @@
       "console": []
     },
     {
-      "id": "RDsB",
-      "code_hash": "693071464a99ec3a2548cbc8b455a74c",
+      "id": "SFPL",
+      "code_hash": "2cff26779b6406545aefb748fc38cfdb",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "BYtC",
+      "code_hash": "a54a125168e3450761bf1087a38e24dd",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "RGSE",
+      "code_hash": "670ff4957c2a41e2ff43e112c6e29ec0",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"tonality-proxies-scale-consistency-vs-pitch-class-entropy\">Tonality proxies: scale consistency vs. pitch-class entropy</h2>\n<ul>\n<li><code>pitch_class_entropy</code>: a high value means the pitch classes are spread evenly, which is a rough sign of less tonal music</li>\n<li><code>scale_consistency</code>: the share of notes that fit a single scale, so a low value suggests non-tonal or modulating music.</li>\n</ul></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Kclp",
+      "code_hash": "e1d5c7b19e21b99ad5617e48d6b340ee",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "emfo",
+      "code_hash": "e86557e8e26b5aba8a74d20c1da0a6c1",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "Hstk",
+      "code_hash": "3fe899dd15d9d5fcbbceb158f08196c9",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "        name   n  median_sc  n_sc<0.9\n  Schoenberg  31      0.962        10\n      Webern   2      0.622         2\n        Berg 219      0.962        40\n    Messiaen   3      0.756         3\n     Debussy 108      0.811        79\n       Ravel 177      0.965        51\n  Stravinsky   1      0.716         1\n      Bartok  55      0.949        15\n    Scriabin  16      0.829        12\n      Ligeti   2      0.608         2\n       Satie  63      0.926        21\n   Prokofiev  17      0.797        14\nShostakovich  40      0.925        15\n        Ives   0        NaN         0\n        Cage   0        NaN         0\n       Crumb   0        NaN         0\n   Hindemith   7      0.829         6\n   Takemitsu   0        NaN         0\n     Xenakis   0        NaN         0\n      Boulez   1      0.749         1\n Stockhausen   0        NaN         0\n  Penderecki   0        NaN         0\n   Ginastera   0        NaN         0\n Szymanowski   0        NaN         0\n102635\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "nWHF",
+      "code_hash": "a04cff6dc14de3062ab3436e836e289b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"sliding-window-scale-consistency-post-tonal-vs-low-consistency-pieces\">Sliding-window scale consistency: post-tonal vs. low-consistency pieces</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ZHCJ",
+      "code_hash": "c4a42cecd27885129ecae5546c47e1f4",
       "outputs": [
         {
           "type": "data",
@@ -110,13 +152,58 @@
       "console": []
     },
     {
-      "id": "OEUy",
-      "code_hash": "eb9613a002d786a08dbd5c8f4606e58d",
+      "id": "iLit",
+      "code_hash": "2f22ccbca095484ba8ed96db4ca71401",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "application/json": "{\"classical\": \"text/html:<marimo-ui-element object-id='OEUy-0' random-id='14acd9b2-f708-2973-add9-19a2decf6b98'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;composer_name&#92;&quot;:&#92;&quot;William Marshall&#92;&quot;,&#92;&quot;count&#92;&quot;:1185},{&#92;&quot;composer_name&#92;&quot;:&#92;&quot;J. S. Bach&#92;&quot;,&#92;&quot;count&#92;&quot;:526},{&#92;&quot;composer_name&#92;&quot;:&#92;&quot;Alexander Walker&#92;&quot;,&#92;&quot;count&#92;&quot;:343},{&#92;&quot;composer_name&#92;&quot;:&#92;&quot;Urheber unbekanntDatum in der hier transkribierten schriftlichen Quelle: 1767&#92;&quot;,&#92;&quot;count&#92;&quot;:326},{&#92;&quot;composer_name&#92;&quot;:&#92;&quot;Teton Sioux band 1911-1914&#92;&quot;,&#92;&quot;count&#92;&quot;:309}]&quot;' data-total-rows='5' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;count&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;composer_name&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>\", \"jazz\": \"text/html:<marimo-ui-element object-id='OEUy-1' random-id='cca2bf98-7c01-51dc-7314-af62adac21ae'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;composer_name&#92;&quot;:&#92;&quot;Thelonius Monk&#92;&quot;,&#92;&quot;count&#92;&quot;:12},{&#92;&quot;composer_name&#92;&quot;:&#92;&quot;Duke Ellington&#92;&quot;,&#92;&quot;count&#92;&quot;:5},{&#92;&quot;composer_name&#92;&quot;:&#92;&quot;Composer&#92;&quot;,&#92;&quot;count&#92;&quot;:5},{&#92;&quot;composer_name&#92;&quot;:&#92;&quot;John Coltrane&#92;&quot;,&#92;&quot;count&#92;&quot;:5},{&#92;&quot;composer_name&#92;&quot;:&#92;&quot;Hoagy Carmichael&#92;&quot;,&#92;&quot;count&#92;&quot;:5}]&quot;' data-total-rows='5' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;count&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;composer_name&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>\", \"rock\": \"text/html:<marimo-ui-element object-id='OEUy-2' random-id='43f3c254-9421-0f47-a38b-28e35c05264e'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;composer_name&#92;&quot;:&#92;&quot;Sam Anderson&#92;&quot;,&#92;&quot;count&#92;&quot;:15},{&#92;&quot;composer_name&#92;&quot;:&#92;&quot;Composer&#92;&quot;,&#92;&quot;count&#92;&quot;:12},{&#92;&quot;composer_name&#92;&quot;:&#92;&quot;Coldplay&#92;&quot;,&#92;&quot;count&#92;&quot;:10},{&#92;&quot;composer_name&#92;&quot;:&#92;&quot;My Chemical Romance&#92;&quot;,&#92;&quot;count&#92;&quot;:10},{&#92;&quot;composer_name&#92;&quot;:&#92;&quot;Imagine Dragons&#92;&quot;,&#92;&quot;count&#92;&quot;:9}]&quot;' data-total-rows='5' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;count&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;composer_name&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>\", \"metal\": \"text/html:<marimo-ui-element object-id='OEUy-3' random-id='c906e090-e4c9-a22a-1d4f-321ab0fd81b9'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;composer_name&#92;&quot;:&#92;&quot;Mago de Oz&#92;&quot;,&#92;&quot;count&#92;&quot;:4},{&#92;&quot;composer_name&#92;&quot;:&#92;&quot;Composer&#92;&quot;,&#92;&quot;count&#92;&quot;:4},{&#92;&quot;composer_name&#92;&quot;:&#92;&quot;Rammstein&#92;&quot;,&#92;&quot;count&#92;&quot;:4},{&#92;&quot;composer_name&#92;&quot;:&#92;&quot;Iron Maiden&#92;&quot;,&#92;&quot;count&#92;&quot;:3},{&#92;&quot;composer_name&#92;&quot;:&#92;&quot;Metallica&#92;&quot;,&#92;&quot;count&#92;&quot;:3}]&quot;' data-total-rows='5' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;count&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;composer_name&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>\"}"
+            "text/html": "<marimo-ui-element object-id='iLit-0' random-id='637356f6-6286-5096-ddbb-843fe01626e0'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;Index0&#92;&quot;:16781,&#92;&quot;title&#92;&quot;:&#92;&quot;Schlafen Schlafen Alban Berg&#92;&quot;,&#92;&quot;composer_name&#92;&quot;:&#92;&quot;Alban Berg op. 2 N1&#92;&quot;,&#92;&quot;n_notes&#92;&quot;:576,&#92;&quot;scale_consistency&#92;&quot;:0.7051282051282052},{&#92;&quot;Index0&#92;&quot;:100865,&#92;&quot;title&#92;&quot;:&#92;&quot;Quartet for the end of Time - 8th movement&#92;&quot;,&#92;&quot;composer_name&#92;&quot;:&#92;&quot;Olivier Messiaen&#92;&quot;,&#92;&quot;n_notes&#92;&quot;:200,&#92;&quot;scale_consistency&#92;&quot;:0.76},{&#92;&quot;Index0&#92;&quot;:171031,&#92;&quot;title&#92;&quot;:&#92;&quot;Kyrie Ligeti SOPRANOS&#92;&quot;,&#92;&quot;composer_name&#92;&quot;:&#92;&quot;Ligeti&#92;&quot;,&#92;&quot;n_notes&#92;&quot;:450,&#92;&quot;scale_consistency&#92;&quot;:0.6148648648648649},{&#92;&quot;Index0&#92;&quot;:185739,&#92;&quot;title&#92;&quot;:&#92;&quot;Tot Arnold Sch&#92;&#92;u00f6nberg&#92;&quot;,&#92;&quot;composer_name&#92;&quot;:&#92;&quot;Arnold Sch&#92;&#92;u00f6nberg&#92;&quot;,&#92;&quot;n_notes&#92;&quot;:395,&#92;&quot;scale_consistency&#92;&quot;:0.6091370558375635},{&#92;&quot;Index0&#92;&quot;:217129,&#92;&quot;title&#92;&quot;:&#92;&quot;Anton Webern Schien mir&#x27;s als ich sah die Sonne&#92;&quot;,&#92;&quot;composer_name&#92;&quot;:&#92;&quot;Anton Webern Op. 12 Nr 3&#92;&quot;,&#92;&quot;n_notes&#92;&quot;:369,&#92;&quot;scale_consistency&#92;&quot;:0.6070460704607046}]&quot;' data-total-rows='5' data-total-columns='4' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;title&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;composer_name&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;n_notes&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;scale_consistency&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;Index0&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ROlb",
+      "code_hash": "76eaa9611762dd95b4abf119fc322da2",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='ROlb-0' random-id='eae1e0ce-c496-998e-5656-2962ad7ecdb2'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;group&#92;&quot;:&#92;&quot;post-tonal&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Kyrie Ligeti SOPRANOS&#92;&quot;,&#92;&quot;composer&#92;&quot;:&#92;&quot;Ligeti&#92;&quot;,&#92;&quot;csv_sc&#92;&quot;:0.615,&#92;&quot;my_sc&#92;&quot;:0.617,&#92;&quot;win_sc_median&#92;&quot;:0.674,&#92;&quot;win_sc_min&#92;&quot;:0.63,&#92;&quot;win_sc_max&#92;&quot;:1.0,&#92;&quot;win_entropy_median&#92;&quot;:3.01,&#92;&quot;n_windows&#92;&quot;:10},{&#92;&quot;group&#92;&quot;:&#92;&quot;post-tonal&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Quartet for the end of Time - 8th move&#92;&quot;,&#92;&quot;composer&#92;&quot;:&#92;&quot;Olivier Messiaen&#92;&quot;,&#92;&quot;csv_sc&#92;&quot;:0.76,&#92;&quot;my_sc&#92;&quot;:0.76,&#92;&quot;win_sc_median&#92;&quot;:0.77,&#92;&quot;win_sc_min&#92;&quot;:0.734,&#92;&quot;win_sc_max&#92;&quot;:1.0,&#92;&quot;win_entropy_median&#92;&quot;:3.14,&#92;&quot;n_windows&#92;&quot;:8},{&#92;&quot;group&#92;&quot;:&#92;&quot;post-tonal&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Anton Webern Schien mir&#x27;s als ich sah &#92;&quot;,&#92;&quot;composer&#92;&quot;:&#92;&quot;Anton Webern Op. 12 &#92;&quot;,&#92;&quot;csv_sc&#92;&quot;:0.607,&#92;&quot;my_sc&#92;&quot;:0.603,&#92;&quot;win_sc_median&#92;&quot;:0.628,&#92;&quot;win_sc_min&#92;&quot;:0.607,&#92;&quot;win_sc_max&#92;&quot;:0.652,&#92;&quot;win_entropy_median&#92;&quot;:3.55,&#92;&quot;n_windows&#92;&quot;:11},{&#92;&quot;group&#92;&quot;:&#92;&quot;post-tonal&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Schlafen Schlafen Alban Berg&#92;&quot;,&#92;&quot;composer&#92;&quot;:&#92;&quot;Alban Berg op. 2 N1&#92;&quot;,&#92;&quot;csv_sc&#92;&quot;:0.705,&#92;&quot;my_sc&#92;&quot;:0.712,&#92;&quot;win_sc_median&#92;&quot;:0.714,&#92;&quot;win_sc_min&#92;&quot;:0.682,&#92;&quot;win_sc_max&#92;&quot;:1.0,&#92;&quot;win_entropy_median&#92;&quot;:3.43,&#92;&quot;n_windows&#92;&quot;:8},{&#92;&quot;group&#92;&quot;:&#92;&quot;post-tonal&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Tot Arnold Sch&#92;&#92;u00f6nberg&#92;&quot;,&#92;&quot;composer&#92;&quot;:&#92;&quot;Arnold Sch&#92;&#92;u00f6nberg&#92;&quot;,&#92;&quot;csv_sc&#92;&quot;:0.609,&#92;&quot;my_sc&#92;&quot;:0.61,&#92;&quot;win_sc_median&#92;&quot;:0.639,&#92;&quot;win_sc_min&#92;&quot;:0.611,&#92;&quot;win_sc_max&#92;&quot;:0.818,&#92;&quot;win_entropy_median&#92;&quot;:3.48,&#92;&quot;n_windows&#92;&quot;:5},{&#92;&quot;group&#92;&quot;:&#92;&quot;low-sc&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Winter Transition&#92;&quot;,&#92;&quot;composer&#92;&quot;:&#92;&quot;Jonathan Waller&#92;&quot;,&#92;&quot;csv_sc&#92;&quot;:0.742,&#92;&quot;my_sc&#92;&quot;:0.742,&#92;&quot;win_sc_median&#92;&quot;:0.922,&#92;&quot;win_sc_min&#92;&quot;:0.714,&#92;&quot;win_sc_max&#92;&quot;:1.0,&#92;&quot;win_entropy_median&#92;&quot;:2.98,&#92;&quot;n_windows&#92;&quot;:13},{&#92;&quot;group&#92;&quot;:&#92;&quot;low-sc&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Digitaciones modos&#92;&quot;,&#92;&quot;composer&#92;&quot;:&#92;&quot;arecio smith&#92;&quot;,&#92;&quot;csv_sc&#92;&quot;:0.731,&#92;&quot;my_sc&#92;&quot;:0.731,&#92;&quot;win_sc_median&#92;&quot;:0.931,&#92;&quot;win_sc_min&#92;&quot;:0.931,&#92;&quot;win_sc_max&#92;&quot;:1.0,&#92;&quot;win_entropy_median&#92;&quot;:2.94,&#92;&quot;n_windows&#92;&quot;:12},{&#92;&quot;group&#92;&quot;:&#92;&quot;low-sc&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Nuvida (1912)&#92;&quot;,&#92;&quot;composer&#92;&quot;:&#92;&quot;E. B. CLAYPOOLE.&#92;&quot;,&#92;&quot;csv_sc&#92;&quot;:0.779,&#92;&quot;my_sc&#92;&quot;:0.81,&#92;&quot;win_sc_median&#92;&quot;:0.908,&#92;&quot;win_sc_min&#92;&quot;:0.685,&#92;&quot;win_sc_max&#92;&quot;:1.0,&#92;&quot;win_entropy_median&#92;&quot;:2.93,&#92;&quot;n_windows&#92;&quot;:40},{&#92;&quot;group&#92;&quot;:&#92;&quot;low-sc&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Autumn Leaves E-A-D-G-C-F tuning&#92;&quot;,&#92;&quot;composer&#92;&quot;:&#92;&quot;arrangement Ross Ing&#92;&quot;,&#92;&quot;csv_sc&#92;&quot;:0.832,&#92;&quot;my_sc&#92;&quot;:0.85,&#92;&quot;win_sc_median&#92;&quot;:0.891,&#92;&quot;win_sc_min&#92;&quot;:0.752,&#92;&quot;win_sc_max&#92;&quot;:1.0,&#92;&quot;win_entropy_median&#92;&quot;:3.14,&#92;&quot;n_windows&#92;&quot;:9},{&#92;&quot;group&#92;&quot;:&#92;&quot;low-sc&#92;&quot;,&#92;&quot;title&#92;&quot;:&#92;&quot;Show Yourself from Frozen 2&#92;&quot;,&#92;&quot;composer&#92;&quot;:&#92;&quot;Robert Lopez &amp; Krist&#92;&quot;,&#92;&quot;csv_sc&#92;&quot;:0.659,&#92;&quot;my_sc&#92;&quot;:0.659,&#92;&quot;win_sc_median&#92;&quot;:0.952,&#92;&quot;win_sc_min&#92;&quot;:0.696,&#92;&quot;win_sc_max&#92;&quot;:1.0,&#92;&quot;win_entropy_median&#92;&quot;:2.8,&#92;&quot;n_windows&#92;&quot;:32}]&quot;' data-total-rows='10' data-total-columns='10' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;group&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;title&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;composer&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;csv_sc&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;my_sc&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;win_sc_median&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;win_sc_min&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;win_sc_max&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;win_entropy_median&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;n_windows&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "YQwD",
+      "code_hash": "21aea7126e0ad6c58236be1f0f215d3c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "qnkX",
+      "code_hash": "76f9ba0c99dcca91dda9cb036f861a61",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "TqIu",
+      "code_hash": "ee25a52f7e085316ce5c036390e6fd4a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><ul>\n<li>Window consistency separates the groups:</li>\n<li>Post-tonal pieces: They stay low in every window, with medians within 0.04 of the whole-piece value (Ligeti is 0.06 higher).</li>\n<li>Comparison pieces: Their windows jump to a median of about 0.9, with maxima of 1.0. They're modulating or locally diatonic, and only the whole-piece number makes them look non-tonal.</li>\n<li>The whole-piece number alone doesn't separate them. Show Yourself from Frozen 2 has 0.66 overall, which is lower than Berg (0.71) and Messiaen (0.76). The windowed version shows it is diatonic in each window, so this is where the window approach helps.</li>\n<li>Entropy:<ul>\n<li>Webern, Berg and Sch\u00f6nberg: They sit at the near-flat ceiling of 3.4\u20133.55 bits (the maximum is 3.58) for almost the whole piece. This is the clearest signature.</li>\n<li>Ligeti and Messiaen: They are lower, at 3.0\u20133.3 bits, which fits their modal or limited-transposition writing.</li>\n<li>Comparison pieces: They hover around the 2.8-bit line (a full diatonic scale) and wander. Nuvida and Show Yourself show repeated dips, which look like key changes.</li>\n</ul>\n</li>\n<li>Caveats:<ul>\n<li>Tail drop: Every piece's last point falls sharply, for example Ligeti to 0.6 and Show Yourself to 1.7. That is the short final window, which holds only 1\u20132 bars of notes and so can't have high entropy. It's an artifact, not music. I'd  drop partial windows from the plot, or mark them.</li>\n<li>Sample size: There are only five post-tonal pieces, and the comparison pieces\n  were drawn at random. This is suggestive, not a test.</li>\n<li>Digitaciones modos: It has a gap near bar 30, from windows with too few notes.\n  Its entropy is flat at 2.9 bits, which may be a scale exercise.</li>\n</ul>\n</li>\n</ul>\n<span class=\"paragraph\">Conclusion: Whole-piece scale_consistency is a weak post-tonal detector, because\nmodulating pieces get low scores too. Its windowed version, together with window\nentropy, separates these two groups cleanly in this small sample.</span></span>"
           }
         }
       ],

@@ -11,5 +11,6 @@ wheels/
 
 # Project Specific
 data/
-
 .pi/
+__marimo__/
+
